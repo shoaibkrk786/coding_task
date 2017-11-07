@@ -1,0 +1,35 @@
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+.pad{
+    padding-top: 4%;
+}
+.marg{
+    margin-left: 18%;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        width: 100%;
+        text-align: center;
+    }
+    .navbar-nav > li {
+        float: none;
+        display: inline-block;
+    }
+    .navbar-nav > li.navbar-right {
+        float: right !important;
+    }
+}
