@@ -86,13 +86,13 @@ class TestController extends Controller
         $input = $request->except('_token');
         $id = $input['questionair_id'];
 
-        for ($i = 0; $i <= count($input['question']); $i++) {
+        for ($i = 0; $i < count($input['question']); $i++) {
 
             $data = [
-                'type' => $input['type'][$i],
                 'questionair_id' => $id,
-                'anser' => $input['anser'],
+                'type' => $input['type'][$i],
                 'question' => $input['question'][$i],
+                'anser' => $input['anser'][$i],
                 'choice_1' => $input['choice_1'][$i],
                 'choice_2' => $input['choice_2'][$i],
                 'choice_3' => $input['choice_3'][$i],

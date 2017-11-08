@@ -22,7 +22,7 @@
                 <td>{{$q->question->count()}}-<a href="{{url('questionairs/create/'.$q->id)}}">Add</a></td>
                 <td>{{$q->duration}}</td>
                 <td>{{$q->resume}}</td>
-                <td>Doe</td>
+                <td>{{$q->resume}}</td>
                 <td><a href="">Edit</a>-<a href="{{url('questionairs/delete/'.$q->id)}}">Delete</a></td>
             </tr>
             @endforeach

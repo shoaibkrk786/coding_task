@@ -19,13 +19,13 @@
             <div class="form-group pad">
                 <label class="col-md-2" for="usr">Question:</label>
                 <div class="col-md-10">
-                    <input type="text" name="question[]" class="form-control"  placeholder="Enter Question">
+                    <input type="text" name="question[]" class="form-control"  placeholder="Enter Question" required>
                 </div>
             </div>
             <div class="form-group pad question">
                 <label class="col-md-2" >Anser:</label>
                 <div class="col-md-10">
-                    <input type="text" name="anser" class="form-control"  placeholder="Enter Anser">
+                    <input type="text" name="anser[]" class="form-control"  placeholder="Enter Anser" required>
                 </div>
             </div>
             <div class="form-group pad">
@@ -34,19 +34,19 @@
             <div class="form-group pad">
                 <label class="col-md-2" >Choice 1:</label>
                 <div class="col-md-10">
-                    <input type="text" name="choice_1[]" class="form-control"  placeholder="Enter Choice">
+                    <input type="text" name="choice_1[]" class="form-control"  placeholder="Enter Choice" required>
                 </div>
             </div>
             <div class="form-group pad">
                 <label class="col-md-2" >Choice 2:</label>
                 <div class="col-md-10">
-                    <input type="text" name="choice_2[]" class="form-control"  placeholder="Enter Choice">
+                    <input type="text" name="choice_2[]" class="form-control"  placeholder="Enter Choice" required>
                 </div>
             </div>
             <div class="form-group pad choice">
                 <label class="col-md-2" >Choice 3:</label>
                 <div class="col-md-10">
-                    <input type="text" name="choice_3[]" class="form-control"  placeholder="Enter Choice">
+                    <input type="text" name="choice_3[]" class="form-control"  placeholder="Enter Choice" required>
                 </div>
             </div>
             <div class="form-group pad">
@@ -97,6 +97,12 @@
                             '<label class="col-md-2" >'+"Question:"+'</label>'+
                             '<div class="col-md-10">'+
                             '<input type="text" name="question[]" class="form-control"  placeholder="Enter Question">'+
+                            '</div>'+
+                            '</div>'+
+                            '<div class="form-group pad">'+
+                            '<label class="col-md-2" >'+"Anser:"+'</label>'+
+                            '<div class="col-md-10">'+
+                            '<input type="text" name="anser[]" class="form-control"  placeholder="Enter Anser">'+
                             '</div>'+
                             '</div>'
 
